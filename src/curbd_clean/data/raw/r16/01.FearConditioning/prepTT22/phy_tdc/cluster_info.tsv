@@ -1,0 +1,4 @@
+cluster_id	amp	ch	channel_group	depth	fr	group	n_spikes	sh	si_unit_id
+0	4.62150002	0	0	0.00000000	1.43870351	noise	33529	0	0
+2	7.80000019	2	0	0.00000000	3.32872628	mua	77576	0	
+3	7.80000019	2	0	0.00000000	2.62939168	noise	61278	0	

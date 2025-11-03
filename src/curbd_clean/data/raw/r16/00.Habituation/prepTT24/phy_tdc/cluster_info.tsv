@@ -1,0 +1,4 @@
+cluster_id	amp	ch	channel_group	depth	fr	group	n_spikes	sh	si_unit_id
+2	6.84450054	3	0	-10.00000000	0.95982807	noise	17043	0	0
+7	6.84450054	3	0	-10.00000000	0.99204198	good	17615	0	0
+8	6.84450054	3	0	-10.00000000	0.36043535	noise	6400	0	0

@@ -19,13 +19,6 @@ This project uses [uv](https://docs.astral.sh/uv/) for dependency management. In
 # On macOS and Linux
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
-# On Windows
-powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
-
-# Or with pip
-pip install uv
-```
-
 After installing uv, set up the project:
 
 ```bash
@@ -82,8 +75,7 @@ This is the first script to run. It:
 - CURBD magnitude estimates for each session and animal
 - Saved as pickle files in `data/CurbdMagnitudes/`
 
-#### Step 2: Pilot Analysis
-
+#### Step 2: Getting results of pilot analysis
 **Script**: `src/curbd_analysis/scripts/initial_scripts/01.curbd_simulations.py`
 
 This script performs simulation-based validation:
@@ -92,7 +84,6 @@ This script performs simulation-based validation:
 - Generates simulation outcome plots
 
 **Expected inputs**:
-- CURBD results from Step 1
 - Simulation parameters in the script
 
 **Outputs**:
@@ -189,11 +180,6 @@ Key packages include:
 3. **Computation Time**: Initial CURBD computation may take several hours depending on dataset size.
 4. **Dependencies**: All required packages are specified in `pyproject.toml` and installed via `uv sync`.
 
-## Citation
-
-If you use this code in your research, please cite the original CURBD methodology:
-
-Perich MG et al. Inferring brain-wide interactions using data-constrained recurrent neural network models. bioRxiv. DOI: https://doi.org/10.1101/2020.12.18.423348
 
 ## License
 

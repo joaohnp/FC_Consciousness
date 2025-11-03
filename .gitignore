@@ -5,8 +5,8 @@ __pycache__/
 
 # C extensions
 *.so
-src/curbd_clean/data/pilot_data_fig6/*.pickle
-src/curbd_clean/data/pilot_data_fig6/curbd_results_session/*.pkl
+src/curbd_analysis/data/pilot_data_fig6/*.pickle
+src/curbd_analysis/data/pilot_data_fig6/curbd_results_session/*.pkl
 # Distribution / packaging
 .Python
 build/

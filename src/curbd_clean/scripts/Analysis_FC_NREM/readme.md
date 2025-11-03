@@ -1,3 +1,0 @@
-Script to answer the following comment from the reviewers in Neuroscience of consciousness
-
-**To build confidence in the reliability of their FC measure, it would be far more compelling if the authors demonstrated no overlap in FC patterns between wakefulness and an established unconscious state (e.g., deep anesthesia or NREM sleep with high slow-wave activity). For example, if significant overlap persists between wakefulness and very deep NREM (e.g., the top 10% of epochs in terms of slow-wave activity), this would suggest the results are more likely due to technical reasons or random dynamics than to fluctuating consciousness levels.**
